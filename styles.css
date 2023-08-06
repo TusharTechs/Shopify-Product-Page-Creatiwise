@@ -191,7 +191,6 @@
   border-right: 1px solid grey;
   height: 970px;
   width: 240px;
-  border-bottom: 1px solid grey;
 }
 
 .filter-right-border h4{
@@ -241,6 +240,18 @@
   font-size: 12px;
   font-weight: 400;
   color: grey;
+}
+
+.filter-border h4{
+  border-bottom: none;
+}
+
+#launch-date{
+  border: none;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+  padding-bottom: 30px;
 }
 
 #launch-date-btn{
